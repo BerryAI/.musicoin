@@ -14,7 +14,7 @@ Execute as `sudo`:
 
 `ls -la` to check `.musicoin` exists
 
-`geth --datadir ~/.musicoin init ~/.musicoin/musicoin_genesis_2_with_allocation.json`
+`geth --datadir ~/.musicoin init ~/.musicoin/musicoin_genesis.json`
 
 `geth --datadir ~/.musicoin --networkid 55313716  --identity Musicoin --port 30303 --nodiscover console`
 
