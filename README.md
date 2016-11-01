@@ -33,6 +33,12 @@ Execute as `sudo`:
 
 # Running from second node
 
+`cd ~`
+
+`git clone https://github.com/BerryAI/.musicoin.git` then enter your password
+
+`ls -la` to check `.musicoin` exists
+
 `geth --datadir ~/.musicoin/blockdata init ~/.musicoin/musicoin_genesis_2_with_allocation.json`
 
 (A) If you do not need to specify `datadir`:
