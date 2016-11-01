@@ -20,12 +20,19 @@ Execute as `sudo`:
 
 `geth --datadir ~/.musicoin/blockdata init ~/.musicoin/musicoin_genesis_2_with_allocation.json`
 
-`geth --datadir ~/.musicoin/blockdata`
+
+`geth --datadir ~/.musicoin/blockdata --networkid 855983  --nodiscover console`
+
+`personal.newAccount()`, with passphrase `Berry`
+
+`eth` to check `coinbase` and `account` have been filled
+
+`miner.start()` to start miner
 
 
 
 # Running from second node
 
-`geth --bootnodes enode://0f2f8c04c6e53f8ee5545e7849f8239c6f33cf868e2599a468cf256884c72ab89501f3686e357adbcbd92974ec3a6f486804660d9ede834a814bb39695aeea1a@104.198.70.194:30303`
+`geth --bootnodes enode://dc58e18b7fc31ae0357dd5bc9295d2647aea28116eb22727bc780d026f22211fb5beff7ef9005a52a052a84eaebab89e532ecfe0cd728586e08d2e3a79e191a5@104.198.70.194:30303 --networkid 855983 console`
 * Note: when node 1 restarts, this enode address needs to be updated
 
