@@ -5,7 +5,17 @@ This repo contains the main file structure for the musicoin app backend for bloc
 
 ## How to setup genesis
 
-Execute as `sudo`:
+Install the geth/ Ethereum packages
+
+```
+sudo apt-get install software-properties-common
+sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo add-apt-repository -y ppa:ethereum/ethereum-dev
+sudo apt-get update
+sudo apt-get install ethereum
+sudo apt-get install ethminer
+```
+
 `sudo su -`
 
 `cd ~`
@@ -17,6 +27,8 @@ Execute as `sudo`:
 `geth --datadir ~/.musicoin init ~/.musicoin/musicoin_genesis.json`
 
 `geth --datadir ~/.musicoin --networkid 55313716  --identity Musicoin --port 30303 console`
+
+*Inside console:*
 
 `personal.newAccount()`, with passphrase `Berry`
 
@@ -31,7 +43,7 @@ Execute as `sudo`:
 Execute `admin.addPeer("enode://...@[ip_addr]:port")` in geth console
 
 
-_For genesis node 1 and node 1b_
+*For genesis node 1 and node 1b*
 
 node 1:
 
@@ -48,6 +60,17 @@ admin.addPeer("enode://6c262c6e95f65ab0199fdd4832eab17512372a145fb057602fa322d72
 
 
 ## Running from the second node
+
+Install the geth/ Ethereum packages
+
+```
+sudo apt-get install software-properties-common
+sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo add-apt-repository -y ppa:ethereum/ethereum-dev
+sudo apt-get update
+sudo apt-get install ethereum
+sudo apt-get install ethminer
+```
 
 `cd ~`
 
