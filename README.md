@@ -36,12 +36,7 @@ Execute as `sudo`:
 
 `geth --datadir ~/.musicoin init ~/.musicoin/musicoin_genesis_2_with_allocation.json`
 
-(A) If you do not need to specify `datadir`:
-
-`geth --bootnodes enode://b5fc4b1f5e0fb06c7018187181bccea96ea64cab5380aaebdf2d235b66de2ceeacc4cc8dbd83770c8992aa3fd81e9e8c08d4e14fa11ec59f0e5418329d814570@104.198.70.194:30303 --identity Musicoin --networkid 55313716 console`
-
-OR (B) If you need to specify `datadir`:
-
 `geth --bootnodes enode://b5fc4b1f5e0fb06c7018187181bccea96ea64cab5380aaebdf2d235b66de2ceeacc4cc8dbd83770c8992aa3fd81e9e8c08d4e14fa11ec59f0e5418329d814570@104.198.70.194:30303 --identity Musicoin --networkid 55313716 --datadir ~/.musicoin console`
 
+Note for Windows users: You may need to change your path from `~/.musicoin` to somewhere in your PC.
 
