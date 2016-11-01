@@ -14,11 +14,11 @@ Execute as `sudo`:
 
 `ls -la` to check `.musicoin` exists
 
-`geth --datadir ~/.musicoin/blockdata init ~/.musicoin/musicoin_genesis.json`
+`geth --datadir ~/.musicoin/blockdata init ~/.musicoin/musicoin_genesis_1_no_allocation.json`
 
-`rm -r ~/.musicoin/blockdata`
+`rm -r ~/.musicoin/blockdata/geth`
 
-`mkdir ~/.musicoin/blockdata`
+`geth --datadir ~/.musicoin/blockdata init ~/.musicoin/musicoin_genesis_2_with_allocation.json`
 
 `geth --datadir ~/.musicoin/blockdata`
 
@@ -26,6 +26,6 @@ Execute as `sudo`:
 
 # Running from second node
 
-`geth --bootnodes enode://36267f976cba2c9365f40395a203ab5be2d49c04c421cbebe094d6bb9ff2295e56537c8f04b9078cd59e692e85c7283d83d98aee4a086979fcb5aa78c0ce3bda@[::]:30303`
+`geth --bootnodes enode://0f2f8c04c6e53f8ee5545e7849f8239c6f33cf868e2599a468cf256884c72ab89501f3686e357adbcbd92974ec3a6f486804660d9ede834a814bb39695aeea1a@104.198.70.194:30303`
 * Note: when node 1 restarts, this enode address needs to be updated
 
