@@ -26,6 +26,25 @@ Execute as `sudo`:
 
 
 
+### For manually adding peers to the nodes
+
+Execute `admin.addPeer("enode://...@[ip_addr]:port") in geth console
+
+
+### For genesis node 1 and node 1b:
+
+node 1:
+`enode://96eb532a30efaf5e968d837207da5b3545316966ac06d30aad1a74d7e68c787e8405f6cf5dc218a5528cb2d619435bdaeb9f8cb8955df9ab9dd12ef085fe9009@104.198.70.194:30303`
+
+admin.addPeer("enode://96eb532a30efaf5e968d837207da5b3545316966ac06d30aad1a74d7e68c787e8405f6cf5dc218a5528cb2d619435bdaeb9f8cb8955df9ab9dd12ef085fe9009@104.198.70.194:30303")
+
+node 1b:
+`enode://6c262c6e95f65ab0199fdd4832eab17512372a145fb057602fa322d72d331b384881cc1a0bd6e690367bc309cb38f5dbaafe9e93cee26246d83ef23f22379bef@104.197.75.174:30303`
+
+admin.addPeer("enode://6c262c6e95f65ab0199fdd4832eab17512372a145fb057602fa322d72d331b384881cc1a0bd6e690367bc309cb38f5dbaafe9e93cee26246d83ef23f22379bef@104.197.75.174:30303")
+
+
+
 ## Running from the second node
 
 `cd ~`
