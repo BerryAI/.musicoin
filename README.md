@@ -1,6 +1,6 @@
 # musicoin
 
-this is the main file structure for the musicoin app.
+This repo contains the main file structure for the musicoin app backend for blockchain data.
 
 
 ## How to setup genesis
@@ -28,7 +28,7 @@ Execute as `sudo`:
 
 ### For manually adding peers to the nodes
 
-Execute `admin.addPeer("enode://...@[ip_addr]:port") in geth console
+Execute `admin.addPeer("enode://...@[ip_addr]:port")` in geth console
 
 
 ### For genesis node 1 and node 1b:
