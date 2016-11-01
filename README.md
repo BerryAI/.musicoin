@@ -21,7 +21,7 @@ Execute as `sudo`:
 `geth --datadir ~/.musicoin/blockdata init ~/.musicoin/musicoin_genesis_2_with_allocation.json`
 
 
-`geth --datadir ~/.musicoin/blockdata --networkid 855983  --nodiscover console`
+`geth --datadir ~/.musicoin/blockdata --networkid 8959898153  --nodiscover console`
 
 `personal.newAccount()`, with passphrase `Berry`
 
