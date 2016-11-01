@@ -16,7 +16,7 @@ Execute as `sudo`:
 
 `geth --datadir ~/.musicoin init ~/.musicoin/musicoin_genesis.json`
 
-`geth --datadir ~/.musicoin --networkid 55313716  --identity Musicoin --port 30303 --nodiscover console`
+`geth --datadir ~/.musicoin --networkid 55313716  --identity Musicoin --port 30303 console`
 
 `personal.newAccount()`, with passphrase `Berry`
 
@@ -26,7 +26,7 @@ Execute as `sudo`:
 
 
 
-# Running from second node
+## Running from the second node
 
 `cd ~`
 
