@@ -33,6 +33,6 @@ Execute as `sudo`:
 
 # Running from second node
 
-`geth --bootnodes enode://0feaef267fc962c720eeeff6ad83d0709b9adda72a511ce2f2eea2c19a3ffb3c3fe344f7c0a52bbfec738aaaf688822c3abba461baf52e4d2cf078d02b1daeeb@104.198.70.194:30305 --identity Musicoin --networkid 8959898153 console`
+`geth --bootnodes enode://0feaef267fc962c720eeeff6ad83d0709b9adda72a511ce2f2eea2c19a3ffb3c3fe344f7c0a52bbfec738aaaf688822c3abba461baf52e4d2cf078d02b1daeeb@104.198.70.194:30303 --identity Musicoin --networkid 8959898153 console`
 * Note: when node 1 restarts, this enode address needs to be updated
 
