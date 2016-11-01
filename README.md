@@ -20,5 +20,12 @@ Execute as `sudo`:
 
 `mkdir ~/.musicoin/blockdata`
 
-`geth --datadir ~/.musicoin/musicoin_data`
+`geth --datadir ~/.musicoin/blockdata`
+
+
+
+# Running from second node
+
+`geth --bootnodes enode://36267f976cba2c9365f40395a203ab5be2d49c04c421cbebe094d6bb9ff2295e56537c8f04b9078cd59e692e85c7283d83d98aee4a086979fcb5aa78c0ce3bda@[::]:30303`
+* Note: when node 1 restarts, this enode address needs to be updated
 
