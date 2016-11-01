@@ -43,10 +43,10 @@ Execute as `sudo`:
 
 (A) If you do not need to specify `datadir`:
 
-`geth --bootnodes enode://6eabaf7108c6117b77426cd65d599fa1ee6933cb41982f6eaab009e00d0490799a0cb3e754e063ceebda8dcdcb55cfeb5d11bf635e1fe5c9242b8794fa511d07@104.198.70.194:30303 --identity Musicoin --networkid 55313716 console`
+`geth --bootnodes enode://b5fc4b1f5e0fb06c7018187181bccea96ea64cab5380aaebdf2d235b66de2ceeacc4cc8dbd83770c8992aa3fd81e9e8c08d4e14fa11ec59f0e5418329d814570@104.198.70.194:30303 --identity Musicoin --networkid 55313716 console`
 
 OR (B) If you need to specify `datadir`:
 
-`geth --bootnodes enode://6eabaf7108c6117b77426cd65d599fa1ee6933cb41982f6eaab009e00d0490799a0cb3e754e063ceebda8dcdcb55cfeb5d11bf635e1fe5c9242b8794fa511d07@104.198.70.194:30303 --identity Musicoin --networkid 55313716 --datadir ~/.musicoin console`
+`geth --bootnodes enode://b5fc4b1f5e0fb06c7018187181bccea96ea64cab5380aaebdf2d235b66de2ceeacc4cc8dbd83770c8992aa3fd81e9e8c08d4e14fa11ec59f0e5418329d814570@104.198.70.194:30303 --identity Musicoin --networkid 55313716 --datadir ~/.musicoin console`
 
 
