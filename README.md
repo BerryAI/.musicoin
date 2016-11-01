@@ -14,14 +14,9 @@ Execute as `sudo`:
 
 `ls -la` to check `.musicoin` exists
 
-`geth --datadir ~/.musicoin/blockdata init ~/.musicoin/musicoin_genesis_1_no_allocation.json`
+`geth --datadir ~/.musicoin init ~/.musicoin/musicoin_genesis_2_with_allocation.json`
 
-`rm -r ~/.musicoin/blockdata/geth`
-
-`geth --datadir ~/.musicoin/blockdata init ~/.musicoin/musicoin_genesis_2_with_allocation.json`
-
-
-`geth --datadir ~/.musicoin/blockdata --networkid 55313716  --identity Musicoin --port 30303 --nodiscover console`
+`geth --datadir ~/.musicoin --networkid 55313716  --identity Musicoin --port 30303 --nodiscover console`
 
 `personal.newAccount()`, with passphrase `Berry`
 
@@ -39,7 +34,7 @@ Execute as `sudo`:
 
 `ls -la` to check `.musicoin` exists
 
-`geth --datadir ~/.musicoin/blockdata init ~/.musicoin/musicoin_genesis_2_with_allocation.json`
+`geth --datadir ~/.musicoin init ~/.musicoin/musicoin_genesis_2_with_allocation.json`
 
 (A) If you do not need to specify `datadir`:
 
