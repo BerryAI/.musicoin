@@ -82,7 +82,7 @@ sudo apt-get install ethminer
 
 `geth --identity Musicoin --networkid 55313716 --datadir ~/.musicoin console`
 
-Finding initial peers is not so easy. Adding 2 static nodes above may help a new node to sync, although it seems not be a permanent solution. You can configure permanent static nodes by putting something like the following into <datadir>/static-nodes.json:
+Finding initial peers is not so easy. Adding 2 static nodes above may help a new node to sync, although it seems not be a permanent solution. You can configure permanent static nodes by putting something like the following into &lt;datadir&gt;/static-nodes.json:
 ```
 ["enode://6c262c6e95f65ab0199fdd4832eab17512372a145fb057602fa322d72d331b384881cc1a0bd6e690367bc309cb38f5dbaafe9e93cee26246d83ef23f22379bef@104.197.75.174:30303",
   "enode://96eb532a30efaf5e968d837207da5b3545316966ac06d30aad1a74d7e68c787e8405f6cf5dc218a5528cb2d619435bdaeb9f8cb8955df9ab9dd12ef085fe9009@104.198.70.194:30303"
